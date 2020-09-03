@@ -3,7 +3,8 @@ extern crate clap_verbosity_flag;
 use colored::*;
 use std::process::Command;
 
-/// Search for a pattern in a file and display the lines that contain it.
+/// Get soothing error messages when your python scripts fail.
+/// Example usage: `thera-py my-proj.py`
 #[derive(Debug, StructOpt)]
 struct Cli {
     #[structopt(flatten)]
@@ -11,8 +12,8 @@ struct Cli {
     /// The path to the file to read
     #[structopt(parse(from_os_str))]
     path: std::path::PathBuf,
-    // The pattern to look for
-    // pattern: String,
+    // TODO: add support for cli arguments
+    // arguments: String,
 }
 
 fn main() {
