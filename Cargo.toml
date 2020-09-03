@@ -1,0 +1,18 @@
+[package]
+name = "thera-py"
+version = "0.1.0"
+authors = ["Paul Biberstein <biberstein.paul@gmail.com>"]
+edition = "2018"
+license = "MIT"
+licence-file = "License.txt"
+description = "Soothing error messages to accompany Python exceptions"
+readme = "README.md"
+homepage = "https://github.com/P-bibs/TheraPy"
+repository = "https://github.com/P-bibs/TheraPy"
+keywords = ["cli", "python", "fun"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+structopt = "0.3.13"
+clap-verbosity-flag = "0.3.1"
+colored = "2"
