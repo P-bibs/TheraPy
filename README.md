@@ -1,1 +1,2 @@
-# Soothing error messages to accompany Python exceptions
+# TheraPy
+Soothing error messages to accompany Python exceptions
