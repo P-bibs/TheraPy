@@ -1,6 +1,11 @@
 # TheraPy
 Soothing error messages to accompany Python exceptions
 
+## Install
+```shell
+cargo install thera-py
+```
+
 ## Usage
 `thera-py` is a drop-in replacement for python. If you would normally type
 ```shell
