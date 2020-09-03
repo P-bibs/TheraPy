@@ -17,9 +17,9 @@ thera-py my-proj.py
 ```
 
 ## Todo
-[x] add support for virtual environments
-[] add more soothing messages
-[] add support for arguments to python script
-[] add support for running thera-py in background
-[] add tests
-[] add better error handling
+- [x] add support for virtual environments
+- [ ] add more soothing messages
+- [ ] add support for arguments to python script
+- [ ] add support for running thera-py in background
+- [ ] add test
+- [ ] add better error handling
